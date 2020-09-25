@@ -1,0 +1,127 @@
+* {
+  margin:0; padding:0;
+}
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.header {
+  width: 900px;
+  padding: 15px 15px;
+  display: flex;
+   justify-content: space-between;
+}
+.header ul li{
+  padding: 5px 0;
+  display: inline;
+  list-style: none;
+  line-height: 50px;
+  width:200px;
+}
+.header_title{
+  font-size: 20px;
+}
+.header_list{
+  font-size: 12px;
+  margin-left:20px;
+}
+.header_right{
+  font-size: 10px;
+  margin-left:20px;
+}
+main{
+  width: 900px;
+}
+.text{
+  font-size: 15px;
+  width: 90%;
+}
+.contents-left{
+  text-align: left;
+  font-size: 10px;
+  margin-left:10px;
+  margin-right:10px;
+  float: left;
+  width: 670px;
+}
+.contents-right{
+  text-align: left;
+  float: right;
+  margin-left:15px;
+  width: 185px;
+  font-size: 12px;
+}
+.first-left{
+  float:left;
+  width: 60%;
+}
+.first-right{
+  float:right;
+  width: 40%;
+}
+.first-left-p{
+  font-size: 12px;
+}
+.first-left img{
+  width: 90%;
+}
+.second{
+  margin: 20px;
+}
+.image{
+  width: 90%;
+}
+.second-a{
+  font-size: 10px;
+  float:left;
+  width: 33%;
+}
+.second-b{
+  font-size: 10px;
+  float:left;
+  width: 34%;
+}
+.second-c{
+  font-size: 10px;
+  float:left;
+  width: 33%;
+}
+.middle-images{
+ height: 40px;
+ width: 80px;
+ margin: 4px;
+}
+.third img{
+  float:left;
+}
+.third-a{
+height: :10px;
+margin-bottom:10px;
+}
+.third sub{
+  font-size: 5px;
+}
+.big-images{
+  width: 90%;
+}
+.fourth-main{
+  margin-top: 15px;
+  font-size: 22px;
+}
+.fourth sub{
+  font-size: 5px;
+}
+.fifth img{
+  float:left;
+  margin-bottom:10px;
+}
+.sixth-main{
+  font-size: 22px;
+}
+.seventh img{
+  float:left;
+}
+.contents-right hr{
+  margin-bottom:10px;
+}
